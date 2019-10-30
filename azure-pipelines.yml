@@ -6,6 +6,11 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
+vaeriables:
+- group: FWD-VARS
+  
+
+
 steps:
 - task: NuGetToolInstaller@0
 
